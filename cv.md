@@ -18,17 +18,15 @@ I graduated from Voronezh State University with a degree in mathematics and comp
 
 ---
 ### **Code example:**
-```python
-import numpy as np
-
-def comm(A, B):
-    return np.dot(A, B)-np.dot(B, A)
-
-M1 = np.array([[0, 1], [1, 0]])
-M2 = np.array([[0, -1j], [1j, 0]])
-
-commutator = comm(M1, M2)
-print(f"Коммутатор матриц: {commutator}")
+```javascript
+function sumTriangularNumbers(n) {
+ if (n < 0) return 0;
+ let sum = 0;
+   for (let i = 1; i <= n; i++) {
+   sum += (i * (i + 1)) / 2;
+  }
+  return sum;
+}
 ```
 
 ---
