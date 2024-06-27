@@ -32,3 +32,8 @@ print(f"Коммутатор матриц: {commutator}")
 ```
 
 ---
+### **Education:**
+* Voronezh State University\
+    Bachelor's degree in computer science
+
+---
