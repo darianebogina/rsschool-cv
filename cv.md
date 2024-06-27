@@ -17,3 +17,18 @@ I graduated from Voronezh State University with a degree in mathematics and comp
 * SQL
 
 ---
+### **Code example:**
+```python
+import numpy as np
+
+def comm(A, B):
+    return np.dot(A, B)-np.dot(B, A)
+
+M1 = np.array([[0, 1], [1, 0]])
+M2 = np.array([[0, -1j], [1j, 0]])
+
+commutator = comm(M1, M2)
+print(f"Коммутатор матриц: {commutator}")
+```
+
+---
