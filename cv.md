@@ -37,3 +37,5 @@ print(f"Коммутатор матриц: {commutator}")
     Bachelor's degree in computer science
 
 ---
+### **Languages:**
+* English A2-B1
