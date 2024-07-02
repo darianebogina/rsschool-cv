@@ -1,32 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
-        <title>CV</title>
-        <link rel="icon" href="./favicon.ico">
-    </head>
-    <body>
-        <header class="header">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+    <link rel="icon" href="./favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main main-container">
+        <section class="left-side">
+            <section class="section" id="profile">
+                <h1 class="section-title">Darya Nebogina</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>E-mail: dasha.nebogina@mail.ru</li>
+                    <li>Telegram: </li>
                 </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <p>spdp</p>
-        </main>
-        <footer class="footer">
-            <p>sdsd</p>
-        </footer>
-    
-    </body>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>Voronezh State University<br>
+                            Bachelor's degree in computer science</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <section class="right-side">
+            <section class="section" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p>I graduated from Voronezh State University with a degree in mathematics and computer science in
+                    2024.
+                    In the near future my goal is to find an interesting job in IT sphere. And I'm interested in
+                    frontend development:
+                    I'm taking various courses to improve my **hard skills** in this area.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML, CSS (basic)</li>
+                    <li>JavaScript (basic)</li>
+                    <li>SQL</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre>
+                    <code>
+                        function sumTriangularNumbers(n) {
+                            if (n < 0) return 0;
+                            let sum = 0;
+                              for (let i = 1; i <= n; i++) {
+                              sum += (i * (i + 1)) / 2;
+                             }
+                             return sum;
+                           }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>English A2-B1</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/darianebogina">My Github</a>
+    </footer>
+
+</body>
+
 </html>
