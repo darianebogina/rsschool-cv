@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .header {
     border: 1px solid red;
 }
@@ -7,3 +10,8 @@
 .footer {
     border: 1px solid red;
 }
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
