@@ -3,9 +3,24 @@
 }
 .left-side {
     width: 50%;
+    color: darkred;
+    border-right: solid 2px white;
+    font: 16px Verdana, sans-serif;
+    background: linear-gradient(to right, white 50%, lightpink 50%);
+}
+.left-border {
+    /*display: inline-block;*/
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    outline: white solid 10px ;
 }
 .right-side {
     width: 50%;
+    background-color: LightPink;
+    border-left: solid 2px white;
+    font: 16px Verdana, sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -13,13 +28,15 @@ html {
 .header {
     border: 1px solid red;
 }
-body {
+.body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0; 
-    padding: 0;
+    margin: 0 auto; 
+    padding: 20px; 
+    max-width: 1200px; 
+    box-sizing: border-box;
 }
 .main {
     border: 1px solid red;
@@ -38,11 +55,30 @@ body {
     align-items: center;
     list-style: none;
 }
-  .nav-link {
-    padding: 0 20px;
+.nav-link {
+    padding: 20px;
     line-height: 50px;
     text-decoration: none;
     transition: 0.3s;
     color: darkred;
     font: 26px Verdana, sans-serif;
+}
+.right-section-title {
+    color: darkred;
+}
+.right-section-title {
+    color: white;
+}
+.name-section-title{
+    color: darkred;
+    font-size: 26px;
+    line-height: 1.5;
+}
+.about-me {
+    font: 18px Arial, sans-serif;
+}
+.code {
+    color: white;
+    background-color: #111111;
+
 }
