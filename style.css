@@ -5,12 +5,12 @@
     display: flex;
     width: 50%;
     color: darkred;
-    border-right: solid 2px white;
+    border-right: solid 2px rgb(255, 200, 237);
+    border-top-left-radius: 17px;
     font: 18px Verdana, sans-serif;
     background-image: linear-gradient(to right, transparent 50%, lightpink 50%), url(./pics/back1.png);
 }
 .left-border {
-    /*display: inline-block;*/
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -27,16 +27,19 @@
     border-radius: 17px;
 }
 .right-side {
+    display: block;
     width: 50%;
     background-color: LightPink;
-    border-left: solid 2px white;
+    border-left: solid 2px rgb(255, 200, 237);
+    border-top-right-radius: 17px;
     font: 18px Verdana, sans-serif;
 }
 html {
     scroll-behavior: smooth;
 }
 .header {
-    border: 1px solid red;
+    border-radius: 17px;
+    border: 4px solid rgb(255, 200, 237);
 }
 .body {
     min-height: 100vh;
@@ -48,9 +51,9 @@ html {
     max-width: 1200px; 
     box-sizing: border-box;
 }
-.main {
-    border: 1px solid red;
-}
+/*.main {
+    border: 4px solid rgb(255, 200, 237);
+}*/
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -71,39 +74,43 @@ html {
 }
 .right-section-title {
     color: white;
-    padding: 15px 20px 10px;
+    padding: 15px 20px 5px;
 }
 .name-section-title{
     color: darkred;
-    padding: 20px;
-    font-size: 26px;
-    line-height: 1.5;
+    padding: 10px;
+    font-size: 36px;
+    text-indent: 8px;
+    /*line-height: 1.5;*/
 }
 .about-me {
-    font: 18px Arial, sans-serif;
-    padding-left: 20px;
+    font: 20px Arial, sans-serif;
+    margin: 0px 20px 0px;
     color:darkred;
     text-indent: 40px;
+    line-height: 1.5;
 }
 .language-js {
     display: flex;
     align-items: center;
     border-radius: 30px;
     white-space: pre-wrap;
-    margin-top: none;
+    margin: 10px 15px 10px;
     padding: 10px;
     text-align: left;
 }
 .list {
-    font: 18px Arial, sans-serif;
+    font: 20px Arial, sans-serif;
     padding-inline-start: 38px; 
     color:darkred;
+    line-height: 1.5;
 }
 .footer {
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
-    background-color: yellowgreen;
+    background-color: rgb(251, 175, 221);
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
 }
 .git {
     color: rgb(31, 22, 54);
