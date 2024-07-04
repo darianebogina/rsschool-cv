@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 .left-side {
+    display: flex;
     width: 50%;
     color: darkred;
     border-right: solid 2px white;
@@ -10,11 +11,13 @@
 }
 .left-border {
     /*display: inline-block;*/
+    display: flex;
+    flex-direction: column;
     margin: auto;
     width: fit-content;
     height: fit-content;
     background-color: white;
-    outline: white solid 10px ;
+    outline: white solid 10px;
 }
 .right-side {
     width: 50%;
@@ -44,10 +47,6 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.footer {
-    border: 1px solid red;
 }
 .nav-list {
     display: flex;
@@ -87,4 +86,28 @@ html {
     font: 18px Arial, sans-serif;
     padding-inline-start: 38px; 
     color:darkred;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+.git {
+    color: rgb(31, 22, 54);
+    font: bold 18px Arial, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px;
+}
+.year {
+    color: black;
+    font: 20px Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+.rs_logo {
+    margin: 15px;
 }
