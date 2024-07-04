@@ -6,7 +6,7 @@
     width: 50%;
     color: darkred;
     border-right: solid 2px white;
-    font: 16px Verdana, sans-serif;
+    font: 18px Verdana, sans-serif;
     background-image: linear-gradient(to right, transparent 50%, lightpink 50%), url(./pics/back1.png);
 }
 .left-border {
@@ -18,12 +18,19 @@
     height: fit-content;
     background-color: white;
     outline: white solid 10px;
+    border-radius: 17px;
+}
+.myphoto {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 17px;
 }
 .right-side {
     width: 50%;
     background-color: LightPink;
     border-left: solid 2px white;
-    font: 16px Verdana, sans-serif;
+    font: 18px Verdana, sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -79,9 +86,14 @@ html {
     text-indent: 40px;
 }
 .language-js {
-    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    white-space: pre-wrap;
+    margin-top: none;
+    padding: 10px;
+    text-align: left;
 }
-
 .list {
     font: 18px Arial, sans-serif;
     padding-inline-start: 38px; 
