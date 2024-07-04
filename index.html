@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>CV</title>
-    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" href="./pics/favicon.ico">
+    <link rel="stylesheet" href="./highlight/night-owl.min.css">
+    <script src="./highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </head>
 
 <body class="body">
@@ -27,7 +30,7 @@
         <section class="left-side">
             <section class="left-border">
                 <section class="section" id="profile">
-                    <img src="./Cat.jpg" width="380" height="507" class="photo" alt="Photo of Darya Nebogina">
+                    <img src="./pics/Cat.jpg" width="380" height="507" class="photo" alt="Photo of Darya Nebogina">
                 </section>
                 <section class="section" id="contacts">
                     <h2 class="left-section-title">Contacts</h2>
@@ -58,7 +61,7 @@
             </section>
             <section class="section" id="skills">
                 <h2 class="right-section-title">Skills</h2>
-                <ul>
+                <ul class="list">
                     <li>Python</li>
                     <li>HTML, CSS (basic)</li>
                     <li>JavaScript (basic)</li>
@@ -68,7 +71,7 @@
             <section class="section" id="code">
                 <h2 class="right-section-title">Code example</h2>
                 <pre>
-                    <code class="code">
+                    <code class="language-js">
                         function sumTriangularNumbers(n) {
                             if (n < 0) return 0;
                             let sum = 0;
@@ -82,8 +85,9 @@
             </section>
             <section class="section" id="languages">
                 <h2 class="right-section-title">Languages</h2>
-                <ul>
+                <ul class="list">
                     <li>English A2-B1</li>
+                    <li>Russian (native)</li>
                 </ul>
             </section>
         </section>

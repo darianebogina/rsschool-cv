@@ -6,7 +6,7 @@
     color: darkred;
     border-right: solid 2px white;
     font: 16px Verdana, sans-serif;
-    background: linear-gradient(to right, white 50%, lightpink 50%);
+    background-image: linear-gradient(to right, transparent 50%, lightpink 50%), url(./pics/back1.png);
 }
 .left-border {
     /*display: inline-block;*/
@@ -64,21 +64,27 @@ html {
     font: 26px Verdana, sans-serif;
 }
 .right-section-title {
-    color: darkred;
-}
-.right-section-title {
     color: white;
+    padding: 15px 20px 10px;
 }
 .name-section-title{
     color: darkred;
+    padding: 20px;
     font-size: 26px;
     line-height: 1.5;
 }
 .about-me {
     font: 18px Arial, sans-serif;
+    padding-left: 20px;
+    color:darkred;
+    text-indent: 40px;
 }
-.code {
-    color: white;
-    background-color: #111111;
+.language-js {
+    margin: auto;
+}
 
+.list {
+    font: 18px Arial, sans-serif;
+    padding-inline-start: 38px; 
+    color:darkred;
 }
