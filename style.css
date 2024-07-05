@@ -33,6 +33,10 @@ html {
     color: darkred;
     font: 26px Verdana, sans-serif;
 }
+.nav-link:hover {
+    background-color: rgb(255, 200, 237);
+    color: white;
+}
 /*.main {
     /*border: 4px solid rgb(255, 200, 237);*/
     /*display: grid;*/
