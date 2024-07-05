@@ -21,7 +21,7 @@ html {
 }
 .nav-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     list-style: none;
 }
@@ -31,7 +31,7 @@ html {
     text-decoration: none;
     transition: 0.3s;
     color: darkred;
-    font: 26px Verdana, sans-serif;
+    font: 24px Verdana, sans-serif;
 }
 .nav-link:hover {
     background-color: rgb(255, 200, 237);
@@ -54,7 +54,7 @@ html {
     border-right: solid 2px rgb(255, 200, 237);
     border-top-left-radius: 17px;
     font: 18px Verdana, sans-serif;
-    background-image: linear-gradient(to right, transparent 50%, lightpink 50%), url(./pics/back1.png);
+    background-image: linear-gradient(to right, transparent 50%, lightpink 50%), url(./pictures/back1.png);
 }
 .left-border {
     display: flex;
@@ -112,6 +112,10 @@ html {
     margin: 10px 15px 10px;
     padding: 10px;
     text-align: left;
+}
+.project {
+    color:darkred;
+    text-decoration: none;
 }
 .footer {
     display: flex;
