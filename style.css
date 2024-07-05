@@ -116,25 +116,27 @@ html {
 .footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: rgb(251, 175, 221);
     border-bottom-right-radius: 17px;
     border-bottom-left-radius: 17px;
+    padding: 30px 0;
 }
 .git {
+    display: block;
     color: rgb(31, 22, 54);
     font: bold 18px Arial, sans-serif;
-    display: block;
     text-align: center;
     text-decoration: none;
-    margin: 30px;
 }
 .year {
     color: black;
-    font: 20px Arial, sans-serif;
-    display: flex;
+    font: bold 20px Arial, sans-serif;
+    margin-bottom: 60px;
+    /*display: flex;
     align-items: center;
-    text-align: center; 
+    text-align: center; */
 }
 .rs_logo {
-    margin: 15px;
+    margin-bottom: 35px;
 }
