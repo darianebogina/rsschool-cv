@@ -7,20 +7,20 @@ html {
 }
 
 .body {
-  min-height: 100vh;
   display: grid;
+  box-sizing: border-box;
   overflow: auto;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
-  box-sizing: border-box;
+  min-height: 100vh;
 }
 
 .header {
+  border: 4px solid #ffc8ed;
   border-radius: 17px;
-  border: 4px solid rgb(255, 200, 237);
 }
 
 .nav-list {
@@ -32,24 +32,18 @@ html {
 
 .nav-link {
   padding: 20px;
-  line-height: 50px;
   text-decoration: none;
-  transition: 0.3s;
-  color: darkred;
+  line-height: 50px;
+  color: #8b0000;
   font: 24px Verdana, sans-serif;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
-  background-color: rgb(255, 200, 237);
-  color: white;
+  color: #ffffff;
+  background-color: #ffc8ed;
 }
 
-/*.main {
-    /*border: 4px solid rgb(255, 200, 237);*/
-/*display: grid;*/
-/*flex-direction: column;*/
-/*overflow: auto;
-}*/
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -58,11 +52,11 @@ html {
 .left-side {
   display: flex;
   width: 50%;
-  color: darkred;
-  border-right: solid 2px rgb(255, 200, 237);
-  border-top-left-radius: 17px;
+  color: #8b0000;
   font: 18px Verdana, sans-serif;
-  background-image: linear-gradient(to right, transparent 50%, lightpink 50%), url(./pictures/back1.png);
+  background-image: linear-gradient(to right, transparent 50%, #ffb6c1 50%), url(./pictures/back1.png);
+  border-right: solid 2px #ffc8ed;
+  border-top-left-radius: 17px;
 }
 
 .left-border {
@@ -71,12 +65,12 @@ html {
   margin: auto;
   width: fit-content;
   height: fit-content;
-  background-color: white;
-  outline: white solid 10px;
+  background-color: #ffffff;
+  outline: #ffffff solid 10px;
   border-radius: 17px;
 }
 
-.myphoto {
+.my-photo {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -86,82 +80,78 @@ html {
 .right-side {
   display: block;
   width: 50%;
-  background-color: LightPink;
-  border-left: solid 2px rgb(255, 200, 237);
-  border-top-right-radius: 17px;
   font: 18px Verdana, sans-serif;
+  border-left: solid 2px #ffc8ed;
+  border-top-right-radius: 17px;
+  background-color: #ffb6c1;
 }
 
 .name-section-title {
-  color: darkred;
   padding: 10px;
   font-size: 36px;
   text-indent: 8px;
-  /*line-height: 1.5;*/
+  color: #8b0000;
 }
 
 .right-section-title {
-  color: white;
   padding: 15px 20px 5px;
+  color: #ffffff;
 }
 
 .about-me {
+  margin: 0 20px 0;
   font: 20px Arial, sans-serif;
-  margin: 0px 20px 0px;
-  color: darkred;
+  color: #8b0000;
   text-indent: 40px;
   line-height: 1.5;
 }
 
 .list {
-  font: 20px Arial, sans-serif;
   padding-inline-start: 38px;
-  color: darkred;
+  font: 20px Arial, sans-serif;
+  color: #8b0000;
   line-height: 1.5;
 }
 
 .language-js {
   display: flex;
   align-items: center;
-  border-radius: 30px;
-  white-space: pre-wrap;
   margin: 10px 15px 10px;
   padding: 10px;
+  white-space: pre-wrap;
   text-align: left;
+  border-radius: 30px;
 }
 
 .project {
-  color: darkred;
+  color: #8b0000;
   text-decoration: none;
 }
 
 .footer {
   display: flex;
+  padding: 30px 0;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(251, 175, 221);
+  background-color: #fbafdd;
   border-bottom-right-radius: 17px;
   border-bottom-left-radius: 17px;
-  padding: 30px 0;
 }
 
 .git {
   display: block;
-  color: rgb(31, 22, 54);
+  color: #1f1636;
   font: bold 18px Arial, sans-serif;
   text-align: center;
   text-decoration: none;
 }
 
 .year {
-  color: black;
-  font: bold 20px Arial, sans-serif;
   margin-bottom: 60px;
-  /*display: flex;
-    align-items: center;
-    text-align: center; */
+  color: #000000;
+  font: bold 20px Arial, sans-serif;
 }
 
-.rs_logo {
+.rs-logo {
   margin-bottom: 35px;
 }
