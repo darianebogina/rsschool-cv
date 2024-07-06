@@ -58,7 +58,7 @@ html {
   width: 50%;
   color: #8b0000;
   font: 18px Verdana, sans-serif;
-  background-image: linear-gradient(to right, transparent 50%, #ffb6c1 50%), url(./pictures/back1.png);
+  background-image: linear-gradient(to right, transparent 50%, #ffb6c1 50%), url(./images/back1.png);
   border-right: solid 2px #ffc8ed;
   border-top-left-radius: 17px;
 }
