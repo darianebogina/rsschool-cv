@@ -15,6 +15,7 @@ html {
   margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
+  min-width: 50%;
   min-height: 100vh;
 }
 
@@ -133,8 +134,8 @@ html {
 }
 
 .preview-of-project {
-  transition: 0.3s;
   border-radius: 10px;
+  transition: 0.3s;
 }
 
 .preview-of-project:hover {
