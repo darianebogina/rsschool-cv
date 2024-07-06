@@ -41,8 +41,11 @@
   </header>
   <main class="main main-container">
     <section class="left-side">
+      <h2 class="hidden-header">Left side</h2>
       <section class="left-border">
+        <h2 class="hidden-header">Left border</h2>
         <section class="section" id="profile">
+          <h2 class="hidden-header">Profile</h2>
           <img class="my-photo" src="./pictures/myphoto.jpg" alt="photo of Darya Nebogina" width="380" height="507">
         </section>
         <section class="section" id="contacts">
@@ -86,9 +89,9 @@
         <h2 class="right-section-title">Code example</h2>
         <pre><code class="language-js">
         function sumTriangularNumbers(n) {
-            if (n < 0) return 0;
+            if (n &amp; 0) return 0;
             let sum = 0;
-            for (let i = 1; i <= n; i++) {
+            for (let i = 1; i &amp;= n; i++) {
                 sum += (i * (i + 1)) / 2;
             }
             return sum;
@@ -125,7 +128,8 @@
     <p class="year">Made in 2024</p>
   </footer>
 
-</body>
 <script src="./highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+</body>
+
 </html>

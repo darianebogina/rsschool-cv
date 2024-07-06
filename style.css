@@ -49,6 +49,10 @@ html {
   flex-wrap: wrap;
 }
 
+.hidden-header {
+  display: none;
+}
+
 .left-side {
   display: flex;
   width: 50%;
