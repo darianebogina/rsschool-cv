@@ -2,8 +2,8 @@
 
 ## Contact information
 * Phone: +7 950 757 6306
-* GitHub: darianebogina (URL)
-* Discord: daria_nebogina (URL)
+* GitHub: [darianebogina](https://github.com/darianebogina)
+* Discord: daria_nebogina
 
 ## About me
 I graduated from Voronezh State University with a degree in mathematics and computer science in 2024. I'm currently pursuing a Master's degree in Information Systems and Technology.  
@@ -39,10 +39,9 @@ function cakes(recipe, available) {
 ```
 
 ## Work experience
-Autumn 2024
-RsSchool Progect 2024: Christmas Shop(URL)  
-Designed and built two main pages (homepage and gift listing page) from scratch using
-HTML5, CSS, and JavaScript.
+* Autumn 2024  
+RSSchool Progect: [Christmas Shop](https://rolling-scopes-school.github.io/darianebogina-JSFE2024Q4/christmas-shop/main.html)   
+Designed and built two main pages (homepage and gift listing page) from scratch usingHTML5, CSS, and JavaScript.
 
 
 ## Education
