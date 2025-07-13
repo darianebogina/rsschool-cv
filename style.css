@@ -1,0 +1,36 @@
+@import url(./styles/header.css);
+@import url(./styles/left-side.css);
+@import url(./styles/right-side.css);
+@import url(./styles/footer.css);
+@import url(./styles/fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.2rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+main {
+    max-width: 1024px;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding: 10px 15px;
+    background-color: #e3c1b5;
+}

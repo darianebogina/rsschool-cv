@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#summary" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code example</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main__wrapper">
+            <div class="left-side">
+                <div class="my__card">
+                    <section class="my__info">
+                        <img src="./me.jpg" alt="me">
+                        <h1>Darya Nebogina</h1>
+                    </section>
+                    <section id="contacts">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li class="list__item">GitHub: darianebogina</li>
+                            <li class="list__item">Discord: daria_nebogina </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="right-side">
+                <section class="section" id="summary">
+                    <h2>About me</h2>
+                    <p>I graduated from Voronezh State University with a degree in mathematics
+                        and computer science in 2024. I'm currently pursuing a Master's degree in
+                        Information Systems and Technology. My goal is to find an interesting job in IT sphere.
+                        I'm passionate about frontend development with a goal to contribute to team-driven
+                        projects and continuously expand my technical knowledge
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2>Skills</h2>
+                    <ul class="skills">
+                        <li>JavaScript</li>
+                        <li>HTML, CSS</li>
+                        <li>Git</li>
+                        <li>React</li>
+                    </ul>
+                </section>
+                <section class="section" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li class="list__item">Master's Degree, Voronezh State University – (2024 – Present)<br>
+                            Information Systems and Technologies</li>
+                        <li class="list__item">Bachelor's Degree, Voronezh State University – (2020 – 2024)<br>
+                            Mathematics and Computer Science</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2>Code example</h2>
+                    <pre><code class="language-js">
+function cakes(recipe, available) {
+    let keysRecipe = Object.keys(recipe);
+    let keysAvailable = Object.keys(available);
+    let cakes = [];
+    for (i = 0; i &lt; keysRecipe.length; i += 1) {
+        if (!keysAvailable.includes(keysRecipe[i])) {
+            return 0;
+        }
+        else {
+            if (recipe[keysRecipe[i]] &lt;= available[keysRecipe[i]]) {
+                cakes.push(available[keysRecipe[i]] / recipe[keysRecipe[i]]);
+            }
+            else {
+                return 0;
+            }
+        }           
+    }
+    return Math.floor(Math.min(...cakes));
+}
+                </code></pre>
+                </section>
+                <section class="section" id="projects">
+                    <h2>Projects</h2>
+                    <a class="nav-link" href="https://github.com/darianebogina/bookshelves_rc">
+                        <p>bookshelves</p>
+                    </a>
+                </section>
+                <section class="section" id="languages">
+                    <h2>Languages</h2>
+                    <ul class="list">
+                        <li class="list__item">English A2-B1</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="git" href="https://github.com/darianebogina">
+            <img class="footer__img" src="./github-mark.svg" alt="The Github's logo">
+        </a>
+        <a class="rs-logo" href="https://rs.school/courses/javascript-ru">
+            <img class="footer__img" src="./rs_school_js.svg" alt="The RSschool's logo">
+        </a>
+        <p class="year">Made in 2025</p>
+    </footer>
+</body>
+</html>

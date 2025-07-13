@@ -1,0 +1,15 @@
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+p, li {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+

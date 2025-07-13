@@ -1,0 +1,21 @@
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    flex: 1; 
+}
+
+.my__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    height: auto;
+    gap: 10px;
+    border: 5px solid #f0ece9;
+    background-color: #f0ece9;
+}
+
+.list__item {
+    list-style: none;
+}
