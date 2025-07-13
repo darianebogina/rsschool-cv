@@ -38,7 +38,7 @@
     </header>
     <main>
         <div class="main__wrapper">
-            <section class="left-side">
+            <div class="left-side">
                 <div class="my__card">
                     <section class="my__info">
                         <img src="./me.jpg" alt="me">
@@ -52,8 +52,8 @@
                         </ul>
                     </section>
                 </div>
-            </section>
-            <section class="right-side">
+            </div>
+            <div class="right-side">
                 <section class="section" id="summary">
                     <h2>About me</h2>
                     <p>I graduated from Voronezh State University with a degree in mathematics
@@ -88,12 +88,12 @@ function cakes(recipe, available) {
     let keysRecipe = Object.keys(recipe);
     let keysAvailable = Object.keys(available);
     let cakes = [];
-    for (i = 0; i < keysRecipe.length; i += 1) {
+    for (i = 0; i &lt; keysRecipe.length; i += 1) {
         if (!keysAvailable.includes(keysRecipe[i])) {
             return 0;
         }
         else {
-            if (recipe[keysRecipe[i]] <= available[keysRecipe[i]]) {
+            if (recipe[keysRecipe[i]] &lt;= available[keysRecipe[i]]) {
                 cakes.push(available[keysRecipe[i]] / recipe[keysRecipe[i]]);
             }
             else {
@@ -103,12 +103,12 @@ function cakes(recipe, available) {
     }
     return Math.floor(Math.min(...cakes));
 }
-        </code></pre>
+                </code></pre>
                 </section>
                 <section class="section" id="projects">
                     <h2>Projects</h2>
-                    <a class="project" href="##">
-                        <!-- вставить сюда например картинку -->
+                    <a class="nav-link" href="https://github.com/darianebogina/bookshelves_rc">
+                        <p>bookshelves</p>
                     </a>
                 </section>
                 <section class="section" id="languages">
@@ -117,20 +117,17 @@ function cakes(recipe, available) {
                         <li class="list__item">English A2-B1</li>
                     </ul>
                 </section>
-            </section>
+            </div>
         </div>
     </main>
     <footer>
         <a class="git" href="https://github.com/darianebogina">
-            <img src="##" alt="The Github's logo">
-            <p>My Github</p>
+            <img class="footer__img" src="./github-mark.svg" alt="The Github's logo">
         </a>
         <a class="rs-logo" href="https://rs.school/courses/javascript-ru">
-            <img src="##" alt="The RSschool's logo">
+            <img class="footer__img" src="./rs_school_js.svg" alt="The RSschool's logo">
         </a>
         <p class="year">Made in 2025</p>
     </footer>
-
 </body>
-
 </html>
