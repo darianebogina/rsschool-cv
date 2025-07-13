@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 50%; */
     padding: 25px;
     flex: 1; 
 }
@@ -13,8 +12,8 @@
     max-width: 360px;
     height: auto;
     gap: 10px;
-    border: 5px solid rgb(214, 210, 193);
-    background-color: rgb(214, 210, 193);
+    border: 5px solid #f0ece9;
+    background-color: #f0ece9;
 }
 
 .list__item {

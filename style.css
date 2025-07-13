@@ -30,5 +30,6 @@ main {
     justify-content: center;
     width: 100%;
     gap: 20px;
-    background-color: rgb(235, 189, 132);
+    padding: 10px 15px;
+    background-color: #e3c1b5;
 }

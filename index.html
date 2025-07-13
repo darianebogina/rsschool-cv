@@ -44,7 +44,7 @@
                         <img src="./me.jpg" alt="me">
                         <h1>Darya Nebogina</h1>
                     </section>
-                    <section class="section" id="contacts">
+                    <section id="contacts">
                         <h2>Contacts</h2>
                         <ul>
                             <li class="list__item">GitHub: darianebogina</li>
@@ -65,7 +65,7 @@
                 </section>
                 <section class="section" id="skills">
                     <h2>Skills</h2>
-                    <ul>
+                    <ul class="skills">
                         <li>JavaScript</li>
                         <li>HTML, CSS</li>
                         <li>Git</li>
@@ -75,34 +75,34 @@
                 <section class="section" id="education">
                     <h2>Education</h2>
                     <ul>
-                        <li>Master's Degree, Voronezh State University – (2024 – Present)<br>
+                        <li class="list__item">Master's Degree, Voronezh State University – (2024 – Present)<br>
                             Information Systems and Technologies</li>
-                        <li>Bachelor's Degree, Voronezh State University – (2020 – 2024)<br>
+                        <li class="list__item">Bachelor's Degree, Voronezh State University – (2020 – 2024)<br>
                             Mathematics and Computer Science</li>
                     </ul>
                 </section>
                 <section class="section" id="code">
                     <h2>Code example</h2>
                     <pre><code class="language-js">
-        function cakes(recipe, available) {
-            let keysRecipe = Object.keys(recipe);
-            let keysAvailable = Object.keys(available);
-            let cakes = [];
-            for (i = 0; i < keysRecipe.length; i += 1) {
-                if (!keysAvailable.includes(keysRecipe[i])) {
-                    return 0;
-                }
-                else {
-                    if (recipe[keysRecipe[i]] <= available[keysRecipe[i]]) {
-                        cakes.push(available[keysRecipe[i]] / recipe[keysRecipe[i]]);
-                    }
-                    else {
-                        return 0;
-                    }
-                }           
-            }
-            return Math.floor(Math.min(...cakes));
+function cakes(recipe, available) {
+    let keysRecipe = Object.keys(recipe);
+    let keysAvailable = Object.keys(available);
+    let cakes = [];
+    for (i = 0; i < keysRecipe.length; i += 1) {
+        if (!keysAvailable.includes(keysRecipe[i])) {
+            return 0;
         }
+        else {
+            if (recipe[keysRecipe[i]] <= available[keysRecipe[i]]) {
+                cakes.push(available[keysRecipe[i]] / recipe[keysRecipe[i]]);
+            }
+            else {
+                return 0;
+            }
+        }           
+    }
+    return Math.floor(Math.min(...cakes));
+}
         </code></pre>
                 </section>
                 <section class="section" id="projects">
@@ -114,7 +114,7 @@
                 <section class="section" id="languages">
                     <h2>Languages</h2>
                     <ul class="list">
-                        <li>English A2-B1</li>
+                        <li class="list__item">English A2-B1</li>
                     </ul>
                 </section>
             </section>
